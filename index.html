@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+      <header>
+        <h1>Snake Xenzia</h1>
+      </header>
+      <div class="container">        
+        <div id="highScoresContainer">
+        <h2>High Scores&nbsp;</h2>
+        <ul id="highScoresList"></ul>
+      </div>
+        <div class="canvas-wrapper">
+          <canvas id="gameCanvas" width="400" height="400" style="background-color: darkgrey;" ></canvas>
+        </div>
+        <div class="score-wrapper">
+          <h2>Score:</h2><p> <span id="score">0</span></p>
+        </div>
+      </div>
+      <footer>
+      <h4>&copy; 2024 Snake Xenzia</h4>
+      <h4>Aadarsh Suresh</h4>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+/*the food should not generate where the snake already is*/
+/*bigger food version */
+/*button to restart, or pause*/ fn resetgame
+/*history of top 5 */
